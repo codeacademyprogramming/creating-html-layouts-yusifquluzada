@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 700px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container .login{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #ddd;
+    padding: 1rem;
+}
+
+.container .login p{
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: grey;
+    margin-right: 5px;
+}
+
+.container .login a{
+    text-decoration: none;
+    color: rgb(10, 14, 241);
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.container .form-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .form-container form{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .form-container h1{
+    padding: 1.5rem 0;
+    color: rgb(29, 29, 29);
+    font-weight: 500;
+}
+
+.container .form-container form input{
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+
+}
+
+.container .form-container form input:focus{
+    padding: 0.7rem;
+    margin-bottom: 1rem; 
+}
+
+.container .form-container form .question{
+    padding: .3rem 0 0.2rem 0;
+}
+
+.container .form-container form .question .email-color{
+    color: blue;
+}
+
+.container .form-container form .check{
+    padding: 1rem 0 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .form-container form .check .checkbox{
+    margin-right: 5px;
+}
+
+.container .form-container form .btn{
+    border: none;
+    background-color: rgb(2, 170, 72);
+    color: #fff;
+    padding: 1rem;
+}
