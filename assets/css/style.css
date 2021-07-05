@@ -1,0 +1,18 @@
+body {
+    height: 5000px;
+}
+
+.background {
+    border: 1px solid black;
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    /* for y axis - top center bottom */
+    /* for x axis - left center right */
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.correct-bg {
+    background-image: url(../images/correct-ratio-bg.jpg);
+}
