@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(236, 236, 176);
+    padding: 1rem;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.container h2{
+    text-align: center;
+    padding: .8rem;
+}
+
+.container p{
+    padding: 1rem 0;
+}
+
+.container .details-section{
+    border: 1px solid #ddd;
+    padding: .5rem;
+    margin-bottom: .5rem;
+}
+
+.container .personal{
+    margin-left: .5rem;
+}
+
+.container .details-section .inputs{
+    margin: 0 0 1rem 0;
+}
+
+
+.container .details-section .gender{
+    margin-bottom: 1rem;
+}
+
+.container .details-section .date{
+    margin-top: 1rem;
+}
+
+.container .details-section .inputs label{
+    margin-right: .2rem;
+}
+
+.container .check-section{
+    border: 1px solid #ddd;
+    padding: .5rem;
+    margin-bottom: .5rem;
+}
+
+.container .check-section .check-apply{
+    margin: 1rem 0;
+}
+
+.container .check-section .last-box{
+    margin-bottom: 1rem;
+}
+
+.container .political-section{
+    border: 1px solid #ddd;
+    padding: .5rem; 
+    margin-bottom: .5rem;
+}
+
+.container .essay-section{
+    border: 1px solid #ddd;
+    padding: .5rem; 
+    margin-bottom: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container .essay-section h4{
+    margin: 0 0 1rem 0;
+}
+
+.container .essay-section .words, .upload,textarea{
+    margin-bottom: .4rem;
+}
+
+.container .essay-section .attachment{
+    margin: 1rem 0;
+}
+
+.container .essay-section .btn{
+    border: none;
+    background-color: red;
+    padding: .2rem .4rem;
+    color: #fff;
+    margin-left: .7rem;
+}
+
+.container .submit-btn{
+    margin-left: 40%;
+    background: none;
+    border: none;
+    background-color: red;
+    padding: .2rem .4rem;
+    color: #fff;
+}
